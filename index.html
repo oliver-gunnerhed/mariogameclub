@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Marioclub</title>
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <h1>Marioclub</h1>
+        </a>
+    </header>
+    <section class="banner">
+        <img src="img/banner.png" alt="marioclub welcome banner">
+        <div class="welcome">
+            <h2>Welcome to <br><span>Marioclub</span></h2>
+        </div>
+    </section>
+    <nav class="main-nav">
+        <ul>
+            <li><a id="club" class="join" onclick="display_content(this.id)">Join the club</a></li>
+            <li><a id="news" onclick="display_content(this.id)">Latest news</a></li>
+            <li><a id="games" onclick="display_content(this.id)">New games</a></li>
+            <li><a id="contact" onclick="display_content(this.id)">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2 id="content-title">It's a me, Mario</h2>
+            <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit nulla quia velit nisi laudantium ul lam enim,
+                magni. Reiciendis reprehendderit nemo corrupti eligendi fugiat ab blanditiis incidunt rem porro, odio
+                esse
+                obcaecati? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos in odio atque vero
+                cum temporibus ex, corrupti facilis architecto nemo perspiciatis nostrum? Quae minus aliquam hic
+                laboriosam architecto! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed molestias
+                perspiciatis deleniti earum, reiciendis illo voluptates! Maxime, sint minus iste perspiciatis, ea
+                aperiam natus ex vitae recusandae officiis, harum dicta?</p>
+        </article>
+        <ul class="images">
+            <li><img src="img/mario1.png" alt="mario thumb 1"></li>
+            <li><img src="img/mario2.png" alt="mario thumb 2"></li>
+        </ul>
+    </main>
+    <section class="join">
+        <h2>Join Today!</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.
+        </p>
+        <form>
+            <input type="email" name="email" placeholder="Enter email here" required>
+        </form>
+    </section>
+    <footer>
+        <p class="copyright">Copyright 2019 Marioclub</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

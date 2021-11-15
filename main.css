@@ -239,10 +239,13 @@ footer {
         font-size: 36px;
     }
 
-    header, nav {
-        position: relative;
+    nav, header {
         top: 0;
     }
 
+    header {
+        position: relative;
+    }
 
+    
 }

@@ -50,6 +50,7 @@ header h1 {
 }
 
 nav {
+    position: sticky;
     background: #F4F4F4;
     padding: 20px;
     position: sticky;
